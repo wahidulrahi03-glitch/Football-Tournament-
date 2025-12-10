@@ -1,0 +1,2070 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KNBHS Alumni Players</title>
+
+  <link rel="stylesheet" href="players.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <!-- Header Section -->
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="picture/logo.jpg" alt="Tournament Logo"></a>
+
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="teams.html">TEAMS</a></li>
+          <li><a href="players.html" class="active">PLAYERS</a></li>
+          <!--  <li><a href="auction.html">AUCTION</a></li>-->
+          <li><a href="about.html">ABOUT</a></li>
+
+        </ul>
+      </div>
+
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+      <h1>ALUMNI PLAYERS</h1>
+      <p>Meet the skilled players participating in this year's KNBHS Alumni Football Tournament.</p>
+    </div>
+  </section>
+
+  <!-- Controls: Search + Filters -->
+  <div class="controls">
+    <div class="controls-left">
+      <div class="search-wrap">
+        <i class="fa fa-search"></i>
+        <input id="searchInput" type="search" placeholder="Search by name..." />
+      </div>
+
+      <div class="filters">
+        <select id="batchFilter">
+          <option value="all">All Batches</option>
+        </select>
+
+        <select id="positionFilter">
+          <option value="all">All Positions</option>
+        </select>
+
+        <button id="resetBtn" class="reset-btn">Reset</button>
+      </div>
+    </div>
+
+    <div class="result-count">
+      Showing <strong id="countNumber">0</strong> players
+    </div>
+  </div>
+
+  <!-- Players Section -->
+  <section class="players">
+    <h1>All Players</h1>
+    <p>From experienced veterans to emerging talents, these players bring their best to the field.</p>
+
+    <div class="row" id="playersGrid">
+      <div class="player-card" data-name="IMRUL HASAN JILAN" data-batch="2016" data-position="DF" data-="iconic ">
+        <img src="images/-10.jpg" alt="IMRUL HASAN JILAN">
+        <h3>IMRUL HASAN JILAN</h3>
+        <p><strong>Batch:</strong> 2016</p>
+        <p><strong>Position:</strong> DF</p>
+        <p><strong></strong> Iconic</p>
+        <p><strong></strong>Team Legends</p>
+      </div>
+
+
+
+      <div class="player-card" data-name="TAMIM UDDIN" data-batch="2019" data-position="ST">
+
+        <img src="images/-7.jpg" alt="Tamim Uddin">
+        <h3>Tamim Uddin</h3>
+        <p><strong>Batch:</strong> 2019</p>
+        <p><strong>Position:</strong> ST</p>
+        <p><strong> </strong> Iconic </p>
+        <p><strong>Team</strong> Alumni Stars</p>
+      </div>
+
+
+      <div class="player-card" data-name="ARVIN" data-batch="2019" data-position="GK">
+
+        <img src="images/-9.jpg" alt="Arvin">
+        <h3>Arvin</h3>
+        <p><strong>Batch:</strong> 2019</p>
+        <p><strong>Position:</strong> GK</p>
+        <p><strong></strong> Iconic</p>
+        <p><strong></strong> Team Legacy</p>
+
+      </div>
+      <div class="player-card" data-name="RIHAD" data-batch="2023" data-position="GK">
+        <img src="images/-1.jpg" alt="Rihad">
+        <h3>RIHAD</h3>
+        <p><strong>Batch:</strong> 2023</p>
+        <p><strong>Position:</strong> GOALKEEPER</p>
+        <p><strong></strong> Iconic</p>
+        <p><strong></strong> 3 Star Avengers</p>
+
+      </div>
+      
+
+
+
+      <div class="player-card" data-name="SHOWRAB DEY" data-batch="2019" data-position="DF">
+       <img src="images/-2.jpg" alt="SHOWRAB DEY">
+        <h3>SHOWRAB DEY</h3>
+        <p><strong>Batch:</strong> 2019</p>
+        <p><strong>Position:</strong> DEFENDER</p>
+        <p><strong></strong> Iconic</p>
+        <p><strong></strong> Team Nostalgia</p>
+
+      </div>
+      
+      <div class="player-card" data-name="FAHIM MONTASIR" data-batch="2018" data-position="MID">
+        <img src="images/-6.jpg" alt="FAHIM MONTASIR">
+        <h3>FAHIM MONTASIR</h3>
+        <p><strong>Batch:</strong> 2018</p>
+        <p><strong>Position:</strong> MID</p>
+         <p><strong></strong> Iconic</p>
+        <p><strong></strong>Golden Generation </p>
+
+      </div>
+
+       <div class="player-card" data-name="ASRAF" data-batch="2019" data-position="ST">
+        <img src="images/-8.jpg" alt="ASRAF">
+        <h3>ASRAF</h3>
+        <p><strong>Batch:</strong> 2019</p>
+        <p><strong>Position:</strong> ST</p>
+         <p><strong></strong> Iconic</p>
+        <p><strong></strong>Retro Warriors </p>
+
+      </div>
+
+
+      <div class="player-card" data-name="SIBRAT" data-batch="2022" data-position="MID">
+        <img src="images/-5.jpg" alt="SIBRAT">
+        <h3>SIBRAT</h3>
+        <p><strong>Batch:</strong> 2022</p>
+        <p><strong>Position:</strong> MID</p>
+         <p><strong></strong> Iconic</p>
+        <p><strong></strong>Supreme Titans </p>
+
+      </div>
+
+      <div class="player-card" data-name="NAFIS" data-batch="2022" data-position="ST">
+        <img src="images/-4.jpg" alt="NAFIS">
+        <h3>NAFIS</h3>
+        <p><strong>Batch:</strong> 2022</p>
+        <p><strong>Position:</strong> ST</p>
+         <p><strong></strong> Iconic</p>
+        <p><strong></strong>Vintage Victors </p>
+
+      </div>
+
+      <div class="player-card" data-name="SAIMON " data-batch="2022" data-position="ST">
+        <img src="images/-3.jpg" alt="SAIMON">
+        <h3>NAFIS</h3>
+        <p><strong>Batch:</strong> 2022</p>
+        <p><strong>Position:</strong> DF</p>
+         <p><strong></strong> Iconic</p>
+        <p><strong></strong>Reunion Rovers </p>
+
+      </div>
+      
+      
+
+      
+
+
+
+
+      <!-- Full 188-player HTML -->
+      <div class="player-card" data-name="REMAN UDDIN" data-batch="2008" data-position="DF">
+        <img src="images/1.jpg" alt="REMAN UDDIN">
+        <h3>REMAN UDDIN</h3>
+        <p><strong>Batch:</strong> 2008</p>
+        <p><strong>Position:</strong> DF</p>
+         <p><strong></strong>Supreme Titans  </p>
+        <p><strong></strong> Sold:20000 points</p>
+        
+      </div>
+
+      <div class="player-card" data-name="SUJON SIKDER" data-batch="1999" data-position="MID">
+        <img src="images/2.jpg" alt="SUJON SIKDER">
+        <h3>SUJON SIKDER</h3>
+        <p><strong>Batch:</strong> 1999</p>
+        <p><strong>Position:</strong> MID</p>
+           <p><strong></strong>Team Legends  </p>
+        <p><strong></strong> Sold:10000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MD ZIAUL HOQUE" data-batch="2006" data-position="DF">
+        <img src="images/3.jpg" alt="MD ZIAUL HOQUE">
+        <h3>MD ZIAUL HOQUE</h3>
+        <p><strong>Batch:</strong> 2006</p>
+        <p><strong>Position:</strong> DF</p>
+         <p><strong></strong>Reunion Rovers </p>
+        <p><strong></strong> Sold:17000 points</p>
+      </div>
+
+      <div class="player-card" data-name="AJIT DEY" data-batch="2002" data-position="DF">
+        <img src="images/4.jpg" alt="AJIT DEY">
+        <h3>AJIT DEY</h3>
+        <p><strong>Batch:</strong> 2002</p>
+        <p><strong>Position:</strong> DF</p>
+             <p><strong></strong>Reunion Rovers </p>
+        <p><strong></strong> Sold:6000 points</p>
+      </div>
+
+      <div class="player-card" data-name="S.TONI" data-batch="2002" data-position="MID">
+        <img src="images/5.jpg" alt="S.TONI">
+        <h3>S.TONI</h3>
+        <p><strong>Batch:</strong> 2002</p>
+        <p><strong>Position:</strong> MID</p>
+           <p><strong></strong>Team Legacy  </p>
+        <p><strong></strong> Sold:15000 points</p>
+      </div>
+
+      <div class="player-card" data-name="HARUNUR RASHID" data-batch="2007" data-position="ST">
+        <img src="images/6.jpg" alt="HARUNUR RASHID">
+        <h3>HARUNUR RASHID</h3>
+        <p><strong>Batch:</strong> 2007</p>
+        <p><strong>Position:</strong> ST</p>
+        <p><strong></strong>Vintage Victors </p>
+        <p><strong></strong> Sold:12000 points</p>
+
+      </div>
+
+      <div class="player-card" data-name="MD MUBARAK HOSSAN" data-batch="2008" data-position="ST">
+        <img src="images/7.jpg" alt="MD MUBARAK HOSSAN">
+        <h3>MD MUBARAK HOSSAN</h3>
+        <p><strong>Batch:</strong> 2008</p>
+        <p><strong>Position:</strong> ST</p>
+          <p><strong></strong>Golden Generation </p>
+        <p><strong></strong> Sold:12000 points</p>
+      </div>
+
+      <!-- Continue this format for all 188 players -->
+
+
+
+
+
+
+      <div class="player-card" data-name="OMAR FARUK" data-batch="2009" data-position="DF">
+        <img src="images/8.jpg" alt="OMAR FARUK">
+        <h3>OMAR FARUK</h3>
+        <p><strong>Batch:</strong> 2009</p>
+        <p><strong>Position:</strong> DF</p>
+        <p><strong></strong>3 Star Avengers </p>
+        <p><strong></strong> Sold:5000 points</p>
+        
+      </div>
+
+      <div class="player-card" data-name="MD ELIAS" data-batch="2007" data-position="ST">
+        <img src="images/9.jpg" alt="MD ELIAS">
+        <h3>MD ELIAS</h3>
+        <p><strong>Batch:</strong> 2007</p>
+        <p><strong>Position:</strong> ST</p>
+         <p><strong></strong>3 Star Avengers </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="KRISNA DEY" data-batch="2004" data-position="MID">
+        <img src="images/10.jpg" alt="KRISNA DEY">
+        <h3>KRISNA DEY</h3>
+        <p><strong>Batch:</strong> 2004</p>
+        <p><strong>Position:</strong> MID</p>
+           <p><strong></strong>Team Nostalgia </p>
+        <p><strong></strong> Sold:8000 points</p>
+      </div>
+
+      <div class="player-card" data-name="EMRAN UDDIN" data-batch="1997" data-position="MID">
+        <img src="images/11.jpg" alt="EMRAN UDDIN">
+        <h3>EMRAN UDDIN</h3>
+        <p><strong>Batch:</strong> 1997</p>
+        <p><strong>Position:</strong> MID</p>
+                <p><strong></strong>Retro Warriors </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="KAZI AZHAR" data-batch="2002" data-position="GK">
+        <img src="images/12.jpg" alt="KAZI AZHAR">
+        <h3>KAZI AZHAR</h3>
+        <p><strong>Batch:</strong> 2002</p>
+        <p><strong>Position:</strong> GK</p>
+        <p><strong></strong>Vintage Victors </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+
+      <div class="player-card" data-name="HM MONSUR " data-batch="2004" data-position="MID">
+        <img src="images/13.6.jpg" alt="HM MONSUR">
+        <h3>HM MONSUR</h3>
+        <p><strong>Batch:</strong> 2004</p>
+        <p><strong>Position:</strong> MID</p>
+         <p><strong></strong>Alumni Stars </p>
+        <p><strong></strong> Sold:5000 points</p>
+
+      </div>
+
+      <div class="player-card" data-name="NAZAM UDDIN " data-batch="2005" data-position="ST">
+        <img src="images/13.7.jpg" alt="NAZAM UDDIN ">
+        <h3>NAZAM UDDIN </h3>
+        <p><strong>Batch:</strong> 2005</p>
+        <p><strong>Position:</strong> ST</p>
+             <p><strong></strong>Retro Warriors </p>
+        <p><strong></strong> Sold:16000 points</p>
+      </div>
+
+
+       <div class="player-card" data-name="ABU JAFAR RUBEL  " data-batch="2005" data-position="ST">
+        <img src="images/13.8.jpg" alt="ABU JAFAR RUBEL  ">
+        <h3>ABU JAFAR  RUBEL  </h3>
+        <p><strong>Batch:</strong> 2004</p>
+        <p><strong>Position:</strong> DF</p>
+           <p><strong></strong>Team Legends  </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MD RONI " data-batch="2007" data-position="ST">
+        <img src="images/13.5.jpg" alt="MD RONI">
+        <h3>MD RONI</h3>
+        <p><strong>Batch:</strong> 2007</p>
+        <p><strong>Position:</strong> ST</p>
+         <p><strong></strong>Alumni Stars </p>
+        <p><strong></strong> Sold:5000 points</p>
+
+      </div>
+
+      <div class="player-card" data-name="AZIZ ULLAH" data-batch="2007" data-position="ST">
+        <img src="images/13.jpg" alt="AZIZ ULLAH">
+        <h3>AZIZ ULLAH</h3>
+        <p><strong>Batch:</strong> 2007</p>
+        <p><strong>Position:</strong> ST</p>
+        <p><strong></strong>Golden Generation </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="IBRAHIM MOVICE" data-batch="2019" data-position="GK">
+        <img src="images/14.jpg" alt="IBRAHIM MOVICE">
+        <h3>IBRAHIM MOVICE</h3>
+        <p><strong>Batch:</strong> 2019</p>
+        <p><strong>Position:</strong> GK</p>
+                  <p><strong></strong>Golden Generation </p>
+        <p><strong></strong> Sold:20000 points</p>
+
+      </div>
+
+      <div class="player-card" data-name="ERSHADUL ALAM" data-batch="2022" data-position="GK">
+        <img src="images/15.jpg" alt="ERSHADUL ALAM">
+        <h3>ERSHADUL ALAM</h3>
+        <p><strong>Batch:</strong> 2022</p>
+        <p><strong>Position:</strong> GK</p>
+         <p><strong></strong>Alumni Stars </p>
+        <p><strong></strong> Sold:20000 points</p>
+
+      </div>
+
+      <div class="player-card" data-name="MD RAIHAN" data-batch="2021" data-position="GK">
+        <img src="images/16.jpg" alt="MD RAIHAN">
+        <h3>MD RAIHAN</h3>
+        <p><strong>Batch:</strong> 2021</p>
+        <p><strong>Position:</strong> GK</p>
+          <p><strong></strong>Vintage Victors </p>
+        <p><strong></strong> Sold:12000 points</p>
+      </div>
+
+      <div class="player-card" data-name="TANIM" data-batch="2016" data-position="GK">
+        <img src="images/17.jpg" alt="TANIM">
+        <h3>TANIM</h3>
+        <p><strong>Batch:</strong> 2016</p>
+        <p><strong>Position:</strong> GK</p>
+        <p><strong></strong>Team Nostalgia </p>
+        <p><strong></strong> Sold:20000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MIRAZ" data-batch="2024" data-position="GK">
+        <img src="images/18.jpg" alt="MIRAZ">
+        <h3>MIRAZ</h3>
+        <p><strong>Batch:</strong> 2024</p>
+        <p><strong>Position:</strong> GK</p>
+           <p><strong></strong>Team Legends  </p>
+        <p><strong></strong> Sold:17000 points</p>
+      </div>
+
+      <div class="player-card" data-name="AKIB HOSSEN" data-batch="2025" data-position="GK">
+        <img src="images/19.jpg" alt="AKIB HOSSEN">
+        <h3>AKIB HOSSEN</h3>
+        <p><strong>Batch:</strong> 2025</p>
+        <p><strong>Position:</strong> GK</p>
+             <p><strong></strong>Retro Warriors </p>
+        <p><strong></strong> Sold:11000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MD RAHIM" data-batch="2022" data-position="GK">
+        <img src="images/20.jpg" alt="MD RAHIM">
+        <h3>MD RAHIM</h3>
+        <p><strong>Batch:</strong> 2022</p>
+        <p><strong>Position:</strong> GK</p>
+         <p><strong></strong>Reunion Rovers </p>
+        <p><strong></strong> Sold:10000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MD JISHAN" data-batch="2023" data-position="GK">
+        <img src="images/21.jpg" alt="MD JISHAN">
+        <h3>MD JISHAN</h3>
+        <p><strong>Batch:</strong> 2023</p>
+        <p><strong>Position:</strong> GK</p>
+         <p><strong></strong>Team Legends  </p>
+        <p><strong></strong> Sold:6000 points</p>
+      </div>
+
+      <div class="player-card" data-name="EMDADUOL HOQUE EMON" data-batch="2025" data-position="GK">
+        <img src="images/22.jpg" alt="EMDADUOL HOQUE EMON">
+        <h3>EMDADUOL HOQUE EMON</h3>
+        <p><strong>Batch:</strong> 2025</p>
+        <p><strong>Position:</strong> GK</p>
+         <p><strong></strong>Supreme Titans</p>
+        <p><strong></strong> Sold:5000 points</p>
+
+      </div>
+
+      <div class="player-card" data-name="TUSHAR" data-batch="2023" data-position="GK">
+        <img src="images/23.jpg" alt="TUSHAR">
+        <h3>TUSHAR</h3>
+        <p><strong>Batch:</strong> 2023</p>
+        <p><strong>Position:</strong> GK</p>
+                <p><strong></strong>Team Nostalgia </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MD MORSHED" data-batch="2024" data-position="GK">
+        <img src="images/24.jpg" alt="MD MORSHED">
+        <h3>MD MORSHED</h3>
+        <p><strong>Batch:</strong> 2024</p>
+        <p><strong>Position:</strong> GK</p>
+         <p><strong></strong>Alumni Stars </p>
+        <p><strong></strong> Sold:5000 points</p>
+
+      </div>
+
+
+
+
+      <div class="player-card" data-name="SOHEL RANA" data-batch="2016" data-position="ST">
+        <img src="images/25.jpg" alt="SOHEL RANA">
+        <h3>SOHEL RANA</h3>
+        <p><strong>Batch:</strong> 2016</p>
+        <p><strong>Position:</strong> ST</p>
+         <p><strong></strong>Reunion Rovers </p>
+        <p><strong></strong> Sold:8000 points</p>
+      </div>
+
+      <div class="player-card" data-name="KAZI SHAKIB" data-batch="2022" data-position="ST">
+        <img src="images/26.jpg" alt="KAZI SHAKIB">
+        <h3>KAZI SHAKIB</h3>
+        <p><strong>Batch:</strong> 2022</p>
+        <p><strong>Position:</strong> ST</p>
+         <p><strong></strong>3 Star Avengers </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="ROM JU" data-batch="2013" data-position="ST">
+        <img src="images/27.jpg" alt="ROM JU">
+        <h3>ROM JU</h3>
+        <p><strong>Batch:</strong> 2013</p>
+        <p><strong>Position:</strong> ST</p>
+          <p><strong></strong>Vintage Victors </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MOJAMMEL HOSSEN" data-batch="2013" data-position="ST">
+        <img src="images/28.jpg" alt="MOJAMMEL HOSSEN">
+        <h3>MOJAMMEL HOSSEN</h3>
+        <p><strong>Batch:</strong> 2013</p>
+        <p><strong>Position:</strong> ST</p>
+          <p><strong></strong>Vintage Victors </p>
+        <p><strong></strong> Sold:6000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MAHFUJ TALUKDER" data-batch="2022" data-position="ST">
+        <img src="images/29.jpg" alt="MAHFUJ TALUKDER">
+        <h3>MAHFUJ TALUKDER</h3>
+        <p><strong>Batch:</strong> 2022</p>
+        <p><strong>Position:</strong> ST</p>
+                <p><strong></strong>Team Nostalgia </p>
+        <p><strong></strong> Sold:8000 points</p>
+      </div>
+
+      <div class="player-card" data-name="YASIN" data-batch="2016" data-position="ST">
+        <img src="images/30.jpg" alt="YASIN">
+        <h3>YASIN</h3>
+        <p><strong>Batch:</strong> 2016</p>
+        <p><strong>Position:</strong> ST</p>
+                <p><strong></strong>Team Nostalgia </p>
+        <p><strong></strong> Sold:6000 points</p>
+      </div>
+
+      <div class="player-card" data-name="ARIF" data-batch="2016" data-position="ST">
+        <img src="images/31.jpg" alt="ARIF">
+        <h3>ARIF</h3>
+        <p><strong>Batch:</strong> 2016</p>
+        <p><strong>Position:</strong> ST</p>
+         <p><strong></strong>Supreme Titans  </p>
+        <p><strong></strong> Sold:15000 points</p>
+      </div>
+
+      <div class="player-card" data-name="FAHIM HASAN" data-batch="2021" data-position="ST">
+        <img src="images/32.jpg" alt="FAHIM HASAN">
+        <h3>FAHIM HASAN</h3>
+        <p><strong>Batch:</strong> 2021</p>
+        <p><strong>Position:</strong> ST</p>
+         <p><strong></strong>Supreme Titans  </p>
+        <p><strong></strong> Sold:6000 points</p>
+      </div>
+
+      <div class="player-card" data-name="JONAYED TALUKDER" data-batch="2025" data-position="ST">
+        <img src="images/33.jpg" alt="JONAYED TALUKDER">
+        <h3>JONAYED TALUKDER</h3>
+        <p><strong>Batch:</strong> 2025</p>
+        <p><strong>Position:</strong> ST</p>
+           <p><strong></strong>Team Legacy  </p>
+        <p><strong></strong> Sold:6000 points</p>
+      </div>
+
+      <div class="player-card" data-name="KAZI SHAHIN" data-batch="2018" data-position="ST">
+        <img src="images/34.jpg" alt="KAZI SHAHIN">
+        <h3>KAZI SHAHIN</h3>
+        <p><strong>Batch:</strong> 2018</p>
+        <p><strong>Position:</strong> ST</p>
+                  <p><strong></strong>Golden Generation </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="RABIN CHOWDHURY" data-batch="2021" data-position="ST">
+        <img src="images/35.jpg" alt="RABIN CHOWDHURY">
+        <h3>RABIN CHOWDHURY</h3>
+        <p><strong>Batch:</strong> 2021</p>
+        <p><strong>Position:</strong> ST</p>
+         <p><strong></strong>3 Star Avengers </p>
+        <p><strong></strong> Sold:6000 points</p>
+      </div>
+
+      <div class="player-card" data-name="IFAZ MOZIDE" data-batch="2021" data-position="ST">
+        <img src="images/36.jpg" alt="IFAZ MOZIDE">
+        <h3>IFAZ MOZIDE</h3>
+        <p><strong>Batch:</strong> 2021</p>
+        <p><strong>Position:</strong> ST</p>
+         <p><strong></strong>Team Legends  </p>
+        <p><strong></strong> Sold:16000 points</p>
+      </div>
+
+      <div class="player-card" data-name="NIYAZ UDDIN" data-batch="2022" data-position="ST">
+        <img src="images/37.jpg" alt="NIYAZ UDDIN">
+        <h3>NIYAZ UDDIN</h3>
+        <p><strong>Batch:</strong> 2022</p>
+        <p><strong>Position:</strong> ST</p>
+          <p><strong></strong>Vintage Victors </p>
+        <p><strong></strong> Sold:9000 points</p>
+      </div>
+
+      <div class="player-card" data-name="SHAHADAT" data-batch="2024" data-position="ST">
+        <img src="images/38.jpg" alt="SHAHADAT">
+        <h3>SHAHADAT</h3>
+        <p><strong>Batch:</strong> 2024</p>
+        <p><strong>Position:</strong> ST</p>
+         <p><strong></strong>Supreme Titans  </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="AZIZUR RAHMAN" data-batch="2025" data-position="ST">
+        <img src="images/39.jpg" alt="AZIZUR RAHMAN">
+        <h3>AZIZUR RAHMAN</h3>
+        <p><strong>Batch:</strong> 2025</p>
+        <p><strong>Position:</strong> ST</p>
+         <p><strong></strong>Reunion Rovers </p>
+        <p><strong></strong> Sold:20000 points</p>
+      </div>
+
+      <div class="player-card" data-name="RAIHAN" data-batch="2018" data-position="ST">
+        <img src="images/40.jpg" alt="RAIHAN">
+        <h3>RAIHAN</h3>
+        <p><strong>Batch:</strong> 2018</p>
+        <p><strong>Position:</strong> ST</p>
+         <p><strong></strong>Reunion Rovers </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MD SOHEL" data-batch="2023" data-position="ST">
+        <img src="images/41.jpg" alt="MD SOHEL">
+        <h3>MD SOHEL</h3>
+        <p><strong>Batch:</strong> 2023</p>
+        <p><strong>Position:</strong> ST</p>
+         <p><strong></strong>3 Star Avengers </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MD AZIZ" data-batch="2025" data-position="ST">
+        <img src="images/42.jpg" alt="MD AZIZ">
+        <h3>MD AZIZ</h3>
+        <p><strong>Batch:</strong> 2025</p>
+        <p><strong>Position:</strong> ST</p>
+         <p><strong></strong>Team Legends  </p>
+        <p><strong></strong> Sold:20000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MONNA DEY" data-batch="2023" data-position="ST">
+        <img src="images/43.jpg" alt="MONNA DEY">
+        <h3>MONNA DEY</h3>
+        <p><strong>Batch:</strong> 2023</p>
+        <p><strong>Position:</strong> ST</p>
+         <p><strong></strong>Supreme Titans  </p>
+        <p><strong></strong> Sold:16000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MUKTER HOSSAIN" data-batch="2021" data-position="ST">
+        <img src="images/44.jpg" alt="MUKTER HOSSAIN">
+        <h3>MUKTER HOSSAIN</h3>
+        <p><strong>Batch:</strong> 2021</p>
+        <p><strong>Position:</strong> ST</p>
+          <p><strong></strong>3 Star Avengers </p>
+        <p><strong></strong> Sold:8000 points</p>
+        
+      </div>
+
+      <div class="player-card" data-name="JWEL MAHMUD" data-batch="2023" data-position="ST">
+        <img src="images/45.jpg" alt="JWEL MAHMUD">
+        <h3>JWEL MAHMUD</h3>
+        <p><strong>Batch:</strong> 2023</p>
+        <p><strong>Position:</strong> ST</p>
+                <p><strong></strong>Team Nostalgia </p>
+        <p><strong></strong> Sold:15000 points</p>
+      </div>
+
+      <div class="player-card" data-name="IMTIAZ AHMED" data-batch="2024" data-position="ST">
+        <img src="images/46.jpg" alt="IMTIAZ AHMED">
+        <h3>IMTIAZ AHMED</h3>
+        <p><strong>Batch:</strong> 2024</p>
+        <p><strong>Position:</strong> ST</p>
+          <p><strong></strong>Vintage Victors </p>
+        <p><strong></strong> Sold:8000 points</p>
+      </div>
+
+      <div class="player-card" data-name="RABIUL HASAN" data-batch="2024" data-position="ST">
+        <img src="images/47.jpg" alt="RABIUL HASAN">
+        <h3>RABIUL HASAN</h3>
+        <p><strong>Batch:</strong> 2024</p>
+        <p><strong>Position:</strong> ST</p>
+           <p><strong></strong>Team Legacy  </p>
+        <p><strong></strong> Sold:13000 points</p>
+      </div>
+
+      <div class="player-card" data-name="SABBIR" data-batch="2023" data-position="ST">
+        <img src="images/49.jpg" alt="SABBIR">
+        <h3>SABBIR</h3>
+        <p><strong>Batch:</strong> 2023</p>
+        <p><strong>Position:</strong> ST</p>
+                <p><strong></strong>Team Nostalgia </p>
+        <p><strong></strong> Sold:12000 points</p>
+      </div>
+
+      <div class="player-card" data-name="ALAM" data-batch="2022" data-position="ST">
+        <img src="images/50.jpg" alt="ALAM">
+        <h3>ALAM</h3>
+        <p><strong>Batch:</strong> 2022</p>
+        <p><strong>Position:</strong> ST</p>
+          <p><strong></strong>Vintage Victors </p>
+        <p><strong></strong> Sold:13000 points</p>
+      </div>
+
+
+
+
+      <!-- ST Players -->
+      <div class="player-card" data-name="RASHED ALAM" data-batch="2024" data-position="ST">
+        <img src="images/51.jpg" alt="RASHED ALAM">
+        <h3>RASHED ALAM</h3>
+        <p><strong>Batch:</strong> 2024</p>
+        <p><strong>Position:</strong> ST</p>
+                  <p><strong></strong>Golden Generation </p>
+        <p><strong></strong> Sold:6000 points</p>
+      </div>
+
+      <div class="player-card" data-name="JOBAYER" data-batch="2025" data-position="ST">
+        <img src="images/52.jpg" alt="JOBAYER">
+        <h3>JOBAYER</h3>
+        <p><strong>Batch:</strong> 2025</p>
+        <p><strong>Position:</strong> ST</p>
+             <p><strong></strong>Retro Warriors </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="TAREK AHMED" data-batch="2022" data-position="ST">
+        <img src="images/53.jpg" alt="TAREK AHMED">
+        <h3>TAREK AHMED</h3>
+        <p><strong>Batch:</strong> 2022</p>
+        <p><strong>Position:</strong> ST</p>
+         <p><strong></strong>3 Star Avengers </p>
+        <p><strong></strong> Sold:13000 points</p>
+      </div>
+
+      <div class="player-card" data-name="ABDULLAH AL MUSTAKIN" data-batch="2020" data-position="ST">
+        <img src="images/54.jpg" alt="ABDULLAH AL MUSTAKIN">
+        <h3>ABDULLAH AL MUSTAKIN</h3>
+        <p><strong>Batch:</strong> 2020</p>
+        <p><strong>Position:</strong> ST</p>
+         <p><strong></strong>3 Star Avengers </p>
+        <p><strong></strong> Sold:6000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MOJAMMEL" data-batch="2021" data-position="ST">
+        <img src="images/55.jpg" alt="MOJAMMEL">
+        <h3>MOJAMMEL</h3>
+        <p><strong>Batch:</strong> 2021</p>
+        <p><strong>Position:</strong> ST</p>
+         <p><strong></strong>Alumni Stars </p>
+        <p><strong></strong> Sold:9000 points</p>
+
+      </div>
+
+     
+
+      <div class="player-card" data-name="MD RAMJAN" data-batch="2025" data-position="ST">
+        <img src="images/57.jpg" alt="MD RAMJAN">
+        <h3>MD RAMJAN</h3>
+        <p><strong>Batch:</strong> 2025</p>
+        <p><strong>Position:</strong> ST</p>
+         <p><strong></strong>3 Star Avengers </p>
+        <p><strong></strong> Sold:11000 points</p>
+      </div>
+
+      <div class="player-card" data-name="SAJIB UDDIN" data-batch="2016" data-position="ST">
+        <img src="images/58.jpg" alt="SAJIB UDDIN">
+        <h3>SAJIB UDDIN</h3>
+        <p><strong>Batch:</strong> 2016</p>
+        <p><strong>Position:</strong> ST</p>
+         <p><strong></strong>Alumni Stars </p>
+        <p><strong></strong> Sold:6000 points</p>
+
+      </div>
+
+      <div class="player-card" data-name="HASAN SAKIB" data-batch="2020" data-position="ST">
+        <img src="images/59.jpg" alt="HASAN SAKIB">
+        <h3>HASAN SAKIB</h3>
+        <p><strong>Batch:</strong> 2020</p>
+        <p><strong>Position:</strong> ST</p>
+        <p><strong></strong>3 Star Avengers </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="JAHEDUL ISLAM SAYID" data-batch="2023" data-position="ST">
+        <img src="images/60.jpg" alt="JAHEDUL ISLAM SAYID">
+        <h3>JAHEDUL ISLAM SAYID</h3>
+        <p><strong>Batch:</strong> 2023</p>
+        <p><strong>Position:</strong> ST</p>
+         <p><strong></strong>Reunion Rovers </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="ARSHAD" data-batch="2025" data-position="ST">
+        <img src="images/61.jpg" alt="ARSHAD">
+        <h3>ARSHAD</h3>
+        <p><strong>Batch:</strong> 2025</p>
+        <p><strong>Position:</strong> ST</p>
+             <p><strong></strong>Retro Warriors </p>
+        <p><strong></strong> Sold:9000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MD MUBARAK" data-batch="2023" data-position="ST">
+        <img src="images/62.jpg" alt="MD MUBARAK">
+        <h3>MD MUBARAK</h3>
+        <p><strong>Batch:</strong> 2023</p>
+        <p><strong>Position:</strong> ST</p>
+             <p><strong></strong>Retro Warriors </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="NAJIM UDDIN ALKAS" data-batch="2014" data-position="ST">
+        <img src="images/63.jpg" alt="NAJIM UDDIN ALKAS">
+        <h3>NAJIM UDDIN ALKAS</h3>
+        <p><strong>Batch:</strong> 2014</p>
+        <p><strong>Position:</strong> ST</p>
+         <p><strong></strong>Team Legends  </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="RASHEL KANTI DEY" data-batch="2013" data-position="ST">
+        <img src="images/64.jpg" alt="RASHEL KANTI DEY">
+        <h3>RASHEL KANTI DEY</h3>
+        <p><strong>Batch:</strong> 2013</p>
+        <p><strong>Position:</strong> ST</p>
+         <p><strong></strong>Reunion Rovers </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <!-- MID Players -->
+      <div class="player-card" data-name="SAIFUL ISLAM" data-batch="2023" data-position="MID">
+        <img src="images/65.jpg" alt="SAIFUL ISLAM">
+        <h3>SAIFUL ISLAM</h3>
+        <p><strong>Batch:</strong> 2023</p>
+        <p><strong>Position:</strong> MID</p>
+          <p><strong></strong>Vintage Victors </p>
+        <p><strong></strong> Sold:12000 points</p>
+      </div>
+
+      <div class="player-card" data-name="SUNJOY DEY" data-batch="2016" data-position="MID">
+        <img src="images/66.jpg" alt="SUNJOY DEY">
+        <h3>SUNJOY DEY</h3>
+        <p><strong>Batch:</strong> 2016</p>
+        <p><strong>Position:</strong> MID</p>
+                  <p><strong></strong>Golden Generation </p>
+        <p><strong></strong> Sold:6000 points</p>
+      </div>
+
+      <div class="player-card" data-name="JISAN" data-batch="2018" data-position="MID">
+        <img src="images/67.jpg" alt="JISAN">
+        <h3>JISAN</h3>
+        <p><strong>Batch:</strong> 2018</p>
+        <p><strong>Position:</strong> MID</p>
+         <p><strong></strong>Supreme Titans  </p>
+        <p><strong></strong> Sold:12000 points</p>
+      </div>
+
+      <div class="player-card" data-name="KAZI MORSHED" data-batch="2025" data-position="MID">
+        <img src="images/68.jpg" alt="KAZI MORSHED">
+        <h3>KAZI MORSHED</h3>
+        <p><strong>Batch:</strong> 2025</p>
+        <p><strong>Position:</strong> MID</p>
+           <p><strong></strong>Team Legacy  </p>
+        <p><strong></strong> Sold:9000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MD BELAL UDDIN" data-batch="2019" data-position="MID">
+        <img src="images/69.jpg" alt="MD BELAL UDDIN">
+        <h3>MD BELAL UDDIN</h3>
+        <p><strong>Batch:</strong> 2019</p>
+        <p><strong>Position:</strong> MID</p>
+         <p><strong></strong>Supreme Titans  </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="ABDUL ARIF" data-batch="2020" data-position="MID">
+        <img src="images/70.jpg" alt="ABDUL ARIF">
+        <h3>ABDUL ARIF</h3>
+        <p><strong>Batch:</strong> 2020</p>
+        <p><strong>Position:</strong> MID</p>
+         <p><strong></strong>3 Star Avengers </p>
+        <p><strong></strong> Sold:12000 points</p>
+      </div>
+
+      <div class="player-card" data-name="ASRAF SABBIR" data-batch="2020" data-position="MID">
+        <img src="images/71.jpg" alt="ASRAF SABBIR">
+        <h3>ASRAF SABBIR</h3>
+        <p><strong>Batch:</strong> 2020</p>
+        <p><strong>Position:</strong> MID</p>
+                  <p><strong></strong>Golden Generation </p>
+        <p><strong></strong> Sold:9000 points</p>
+      </div>
+
+      <div class="player-card" data-name="JIHAN" data-batch="2021" data-position="MID">
+        <img src="images/72.jpg" alt="JIHAN">
+        <h3>JIHAN</h3>
+        <p><strong>Batch:</strong> 2021</p>
+        <p><strong>Position:</strong> MID</p>
+           <p><strong></strong>Team Legacy  </p>
+        <p><strong></strong> Sold:6000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MORSHED" data-batch="2025" data-position="MID">
+        <img src="images/73.jpg" alt="MORSHED">
+        <h3>MORSHED</h3>
+        <p><strong>Batch:</strong> 2025</p>
+        <p><strong>Position:</strong> MID</p>
+         <p><strong></strong>3 Star Avengers </p>
+        <p><strong></strong> Sold:7000 points</p>
+      </div>
+
+      <div class="player-card" data-name="ARMAN JR" data-batch="2023" data-position="MID">
+        <img src="images/74.jpg" alt="ARMAN JR">
+        <h3>ARMAN JR</h3>
+        <p><strong>Batch:</strong> 2023</p>
+        <p><strong>Position:</strong> MID</p>
+         <p><strong></strong>Supreme Titans  </p>
+        <p><strong></strong> Sold:10000 points</p>
+      </div>
+
+      <div class="player-card" data-name="RAKIBUL HASAN" data-batch="2020" data-position="MID">
+        <img src="images/75.jpg" alt="RAKIBUL HASAN">
+        <h3>RAKIBUL HASAN</h3>
+        <p><strong>Batch:</strong> 2020</p>
+        <p><strong>Position:</strong> MID</p>
+                  <p><strong></strong>Golden Generation </p>
+        <p><strong></strong> Sold:7000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MD KORSHED" data-batch="2016" data-position="MID">
+        <img src="images/76.jpg" alt="MD KORSHED">
+        <h3>MD KORSHED</h3>
+        <p><strong>Batch:</strong> 2016</p>
+        <p><strong>Position:</strong> MID</p>
+                  <p><strong></strong>Golden Generation </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="RAIHAN" data-batch="2021" data-position="MID">
+        <img src="images/77.jpg" alt="RAIHAN">
+        <h3>RAIHAN</h3>
+        <p><strong>Batch:</strong> 2021</p>
+        <p><strong>Position:</strong> MID</p>
+         <p><strong></strong>Alumni Stars </p>
+        <p><strong></strong> Sold:8000 points</p>
+
+      </div>
+
+      <div class="player-card" data-name="ZIAN HASAN" data-batch="2022" data-position="MID">
+        <img src="images/78.jpg" alt="ZIAN HASAN">
+        <h3>ZIAN HASAN</h3>
+        <p><strong>Batch:</strong> 2022</p>
+        <p><strong>Position:</strong> MID</p>
+         <p><strong></strong>Team Legends  </p>
+        <p><strong></strong> Sold:7000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MD JAHEDUL ISLAM" data-batch="2018" data-position="MID">
+        <img src="images/79.jpg" alt="MD JAHEDUL ISLAM">
+        <h3>MD JAHEDUL ISLAM</h3>
+        <p><strong>Batch:</strong> 2018</p>
+        <p><strong>Position:</strong> MID</p>
+        <p><strong></strong>Golden Generation </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="ABDUR RAHIM" data-batch="2021" data-position="MID">
+        <img src="images/80.jpg" alt="ABDUR RAHIM">
+        <h3>ABDUR RAHIM</h3>
+        <p><strong>Batch:</strong> 2021</p>
+        <p><strong>Position:</strong> MID</p>
+         <p><strong></strong>Alumni Stars </p>
+        <p><strong></strong> Sold:5000 points</p>
+
+      </div>
+
+
+
+      <!-- MID Players -->
+      <div class="player-card" data-name="MD IRFAN" data-batch="2022" data-position="MID">
+        <img src="images/81.jpg" alt="MD IRFAN">
+        <h3>MD IRFAN</h3>
+        <p><strong>Batch:</strong> 2022</p>
+        <p><strong>Position:</strong> MID</p>
+         <p><strong></strong>3 Star Avengers </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="RASHED" data-batch="2018" data-position="MID">
+        <img src="images/82.jpg" alt="RASHED">
+        <h3>RASHED</h3>
+        <p><strong>Batch:</strong> 2018</p>
+        <p><strong>Position:</strong> MID</p>
+          <p><strong></strong>Vintage Victors </p>
+        <p><strong></strong> Sold:20000 points</p>
+      </div>
+
+      <div class="player-card" data-name="ANISUR RAHMAN SOJIB" data-batch="2025" data-position="MID">
+        <img src="images/83.jpg" alt="ANISUR RAHMAN SOJIB">
+        <h3>ANISUR RAHMAN SOJIB</h3>
+        <p><strong>Batch:</strong> 2025</p>
+        <p><strong>Position:</strong> MID</p>
+                <p><strong></strong>Team Nostalgia </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="ASIF SIKDER" data-batch="2021" data-position="MID">
+        <img src="images/84.jpg" alt="ASIF SIKDER">
+        <h3>ASIF SIKDER</h3>
+        <p><strong>Batch:</strong> 2021</p>
+        <p><strong>Position:</strong> MID</p>
+        <p><strong></strong>Team  Nostalgia</p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="RUPON" data-batch="2014" data-position="MID">
+        <img src="images/85.jpg" alt="RUPON">
+        <h3>RUPON</h3>
+        <p><strong>Batch:</strong> 2014</p>
+        <p><strong>Position:</strong> MID</p>
+             <p><strong></strong>Retro Warriors </p>
+        <p><strong></strong> Sold:20000 points</p>
+      </div>
+
+      <div class="player-card" data-name="SHAHIN" data-batch="2024" data-position="MID">
+        <img src="images/86.jpg" alt="SHAHIN">
+        <h3>SHAHIN</h3>
+        <p><strong>Batch:</strong> 2024</p>
+        <p><strong>Position:</strong> MID</p>
+         <p><strong></strong>Supreme Titans  </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="TAREK" data-batch="2020" data-position="MID">
+        <img src="images/88.jpg" alt="TAREK">
+        <h3>TAREK</h3>
+        <p><strong>Batch:</strong> 2020</p>
+        <p><strong>Position:</strong> MID</p>
+           <p><strong></strong>Team Legacy  </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MD FAISAL" data-batch="2021" data-position="MID">
+        <img src="images/89.jpg" alt="MD FAISAL">
+        <h3>MD FAISAL</h3>
+        <p><strong>Batch:</strong> 2021</p>
+        <p><strong>Position:</strong> MID</p>
+         <p><strong></strong>Alumni Stars </p>
+        <p><strong></strong> Sold:20000 points</p>
+
+      </div>
+
+      <div class="player-card" data-name="MOJAMEL HOSSEN" data-batch="2023" data-position="MID">
+        <img src="images/90.jpg" alt="MOJAMEL HOSSEN">
+        <h3>MOJAMEL HOSSEN</h3>
+        <p><strong>Batch:</strong> 2023</p>
+        <p><strong>Position:</strong> MID</p>
+          <p><strong></strong>Vintage Victors </p>
+        <p><strong></strong> Sold:7000 points</p>
+      </div>
+
+      <div class="player-card" data-name="HANNAN" data-batch="2023" data-position="MID">
+        <img src="images/91.jpg" alt="HASAN">
+        <h3>HANNAN</h3>
+        <p><strong>Batch:</strong> 2023</p>
+        <p><strong>Position:</strong> MID</p>
+         <p><strong></strong>Reunion Rovers </p>
+        <p><strong></strong> Sold:12000 points</p>
+      </div>
+
+      <div class="player-card" data-name="BIPLOB" data-batch="2021" data-position="MID">
+        <img src="images/92.jpg" alt="BIPLOB">
+        <h3>BIPLOB</h3>
+        <p><strong>Batch:</strong> 2021</p>
+        <p><strong>Position:</strong> MID</p>
+        <p><strong></strong>Golden Generation </p>
+        <p><strong></strong> Sold:6000 points</p>
+      </div>
+
+      <div class="player-card" data-name="ARMAN HOSSAIN" data-batch="2022" data-position="MID">
+        <img src="images/93.jpg" alt="ARMAN HOSSAIN">
+        <h3>ARMAN HOSSAIN</h3>
+        <p><strong>Batch:</strong> 2022</p>
+        <p><strong>Position:</strong> MID</p>
+           <p><strong></strong>Team Legacy  </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="IMRAN CHOWDHURY" data-batch="2020" data-position="MID">
+        <img src="images/94.jpg" alt="IMRAN CHOWDHURY">
+        <h3>IMRAN CHOWDHURY</h3>
+        <p><strong>Batch:</strong> 2020</p>
+        <p><strong>Position:</strong> MID</p>
+           <p><strong></strong>Team Legacy  </p>
+        <p><strong></strong> Sold:16000 points</p>
+      </div>
+
+      <div class="player-card" data-name="NASIR UDDIN" data-batch="2021" data-position="MID">
+        <img src="images/95.jpg" alt="NASIR UDDIN">
+        <h3>NASIR UDDIN</h3>
+        <p><strong>Batch:</strong> 2021</p>
+        <p><strong>Position:</strong> MID</p>
+        <p><strong></strong>Alumni Stars </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="M. FARUQUL ISLAM" data-batch="2018" data-position="MID">
+        <img src="images/96.jpg" alt="M. FARUQUL ISLAM">
+        <h3>M. FARUQUL ISLAM</h3>
+        <p><strong>Batch:</strong> 2018</p>
+        <p><strong>Position:</strong> MID</p>
+             <p><strong></strong>Retro Warriors </p>
+        <p><strong></strong> Sold:9000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MD IBRAHIM" data-batch="2018" data-position="MID">
+        <img src="images/97.jpg" alt="MD IBRAHIM">
+        <h3>MD IBRAHIM</h3>
+        <p><strong>Batch:</strong> 2018</p>
+        <p><strong>Position:</strong> MID</p>
+         <p><strong></strong>Team Legends  </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="HABIBUR RAHMAN" data-batch="2020" data-position="MID">
+        <img src="images/98.jpg" alt="HABIBUR RAHMAN">
+        <h3>HABIBUR RAHMAN</h3>
+        <p><strong>Batch:</strong> 2020</p>
+        <p><strong>Position:</strong> MID</p>
+                <p><strong></strong>Team Nostalgia </p>
+        <p><strong></strong> Sold:8000 points</p>
+      </div>
+
+      <div class="player-card" data-name="JIADUR AHSAN NAFI" data-batch="2024" data-position="MID">
+        <img src="images/99.jpg" alt="JIADUR AHSAN NAFI">
+        <h3>JIADUR AHSAN NAFI</h3>
+        <p><strong>Batch:</strong> 2024</p>
+        <p><strong>Position:</strong> MID</p>
+           <p><strong></strong>Team Legacy  </p>
+        <p><strong></strong> Sold:12000 points</p>
+      </div>
+
+      <div class="player-card" data-name="OHIE" data-batch="2019" data-position="MID">
+        <img src="images/100.jpg" alt="OHIE">
+        <h3>OHIE</h3>
+        <p><strong>Batch:</strong> 2019</p>
+        <p><strong>Position:</strong> MID</p>
+                <p><strong></strong>Team Nostalgia </p>
+        <p><strong></strong> Sold:12000 points</p>
+      </div>
+
+      
+
+      <div class="player-card" data-name="ISRAFIL HOSSAIN ISAL" data-batch="2024" data-position="MID">
+        <img src="images/102.jpg" alt="ISRAFIL HOSSAIN ISAL">
+        <h3>ISRAFIL HOSSAIN ISAL</h3>
+        <p><strong>Batch:</strong> 2024</p>
+        <p><strong>Position:</strong> MID</p>
+         <p><strong></strong>Team Legends  </p>
+        <p><strong></strong> Sold:10000 points</p>
+      </div>
+
+      <div class="player-card" data-name="SHAKIB UDDIN" data-batch="2022" data-position="MID">
+        <img src="images/103.jpg" alt="SHAKIB UDDIN">
+        <h3>SHAKIB UDDIN</h3>
+        <p><strong>Batch:</strong> 2022</p>
+        <p><strong>Position:</strong> MID</p>
+         <p><strong></strong>Reunion Rovers </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="KAZI ROMAN" data-batch="2023" data-position="MID">
+        <img src="images/104.jpg" alt="KAZI ROMAN">
+        <h3>KAZI ROMAN</h3>
+        <p><strong>Batch:</strong> 2023</p>
+        <p><strong>Position:</strong> MID</p>
+         <p><strong></strong>Supreme Titans  </p>
+        <p><strong></strong> Sold:10000 points</p>
+      </div>
+
+      <div class="player-card" data-name="TAHASIN BIN IMAM" data-batch="2022" data-position="MID">
+        <img src="images/105.jpg" alt="TAHASIN BIN IMAM">
+        <h3>TAHASIN BIN IMAM</h3>
+        <p><strong>Batch:</strong> 2022</p>
+        <p><strong>Position:</strong> MID</p>
+             <p><strong></strong>Retro Warriors </p>
+        <p><strong></strong> Sold:8000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MAHIN" data-batch="2024" data-position="MID">
+        <img src="images/106.jpg" alt="MAHIN">
+        <h3>MAHIN</h3>
+        <p><strong>Batch:</strong> 2024</p>
+        <p><strong>Position:</strong> MID</p>
+         <p><strong></strong>Supreme Titans  </p>
+        <p><strong></strong> Sold:6000 points</p>
+      </div>
+
+      <div class="player-card" data-name="T. SAIMON" data-batch="2021" data-position="MID">
+        <img src="images/107.jpg" alt="T. SAIMON">
+        <h3>T. SAIMON</h3>
+        <p><strong>Batch:</strong> 2021</p>
+        <p><strong>Position:</strong> MID</p>
+        <p><strong></strong>Golden Generation </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="SAEID AHMED" data-batch="2021" data-position="MID">
+        <img src="images/108.jpg" alt="SAEID AHMED">
+        <h3>SAEID AHMED</h3>
+        <p><strong>Batch:</strong> 2021</p>
+        <p><strong>Position:</strong> MID</p>
+        <p><strong></strong>Reunion Rovers </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MD ELIAS" data-batch="2022" data-position="MID">
+        <img src="images/109.jpg" alt="MD ELIAS">
+        <h3>MD ELIAS</h3>
+        <p><strong>Batch:</strong> 2022</p>
+        <p><strong>Position:</strong> MID</p>
+         <p><strong></strong>Alumni Stars </p>
+        <p><strong></strong> Sold:5000 points</p>
+
+      </div>
+
+      <div class="player-card" data-name="TAMIM IQBAL" data-batch="2023" data-position="MID">
+        <img src="images/110.jpg" alt="TAMIM IQBAL">
+        <h3>TAMIM IQBAL</h3>
+        <p><strong>Batch:</strong> 2023</p>
+        <p><strong>Position:</strong> MID</p>
+          <p><strong></strong>Vintage Victors </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+
+
+
+      <!-- MID Players -->
+      <div class="player-card" data-name="ARIF RIFAT" data-batch="2019" data-position="MID">
+        <img src="images/111.jpg" alt="ARIF RIFAT">
+        <h3>ARIF RIFAT</h3>
+        <p><strong>Batch:</strong> 2019</p>
+        <p><strong>Position:</strong> MID</p>
+         <p><strong></strong>Reunion Rovers </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MD EMON" data-batch="2024" data-position="MID">
+        <img src="images/112.jpg" alt="MD EMON">
+        <h3>MD EMON</h3>
+        <p><strong>Batch:</strong> 2024</p>
+        <p><strong>Position:</strong> MID</p>
+        <p><strong></strong>Golden Generation </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MOHIN UDDIN" data-batch="2019" data-position="MID">
+        <img src="images/113.jpg" alt="MOHIN UDDIN">
+        <h3>MOHIN UDDIN</h3>
+        <p><strong>Batch:</strong> 2019</p>
+        <p><strong>Position:</strong> MID</p>
+         <p><strong></strong>Alumni Stars </p>
+        <p><strong></strong> Sold:5000 points</p>
+
+      </div>
+
+      <div class="player-card" data-name="NAHID KHANDAKAR" data-batch="2021" data-position="MID">
+        <img src="images/114.jpg" alt="NAHID KHANDAKAR">
+        <h3>NAHID KHANDAKAR</h3>
+        <p><strong>Batch:</strong> 2021</p>
+        <p><strong>Position:</strong> MID</p>
+        <p><strong></strong>Supreme Titans </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="JABED HOSSEN" data-batch="2019" data-position="MID">
+        <img src="images/115.jpg" alt="JABED HOSSEN">
+        <h3>JABED HOSSEN</h3>
+        <p><strong>Batch:</strong> 2019</p>
+        <p><strong>Position:</strong> MID</p>
+             <p><strong></strong>Retro Warriors </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="AB NABIL" data-batch="2021" data-position="MID">
+        <img src="images/116.jpg" alt="AB NABIL">
+        <h3>AB NABIL</h3>
+        <p><strong>Batch:</strong> 2021</p>
+        <p><strong>Position:</strong> MID</p>
+
+        <p><strong></strong>Alumni Stars </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="ASIF" data-batch="2021" data-position="MID">
+        <img src="images/117.jpg" alt="ASIF">
+        <h3>ASIF</h3>
+        <p><strong>Batch:</strong> 2021</p>
+        <p><strong>Position:</strong> MID</p>
+        <p><strong></strong>Supreme Titans </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MD TAREK" data-batch="2023" data-position="MID">
+        <img src="images/118.jpg" alt="MD TAREK">
+        <h3>MD TAREK</h3>
+        <p><strong>Batch:</strong> 2023</p>
+        <p><strong>Position:</strong> MID</p>
+        <p><strong></strong>Team Legend </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MIR NASIR JIHAD" data-batch="2021" data-position="MID">
+        <img src="images/119.jpg" alt="MIR NASIR JIHAD">
+        <h3>MIR NASIR JIHAD</h3>
+        <p><strong>Batch:</strong> 2021</p>
+        <p><strong>Position:</strong> MID</p>
+        <p><strong></strong>Retro Warriors </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="SAYMON" data-batch="2020" data-position="MID">
+        <img src="images/120.jpg" alt="SAYMON">
+        <h3>SAYMON</h3>
+        <p><strong>Batch:</strong> 2020</p>
+        <p><strong>Position:</strong> MID</p>
+         <p><strong></strong>Reunion Rovers </p>
+        <p><strong></strong> Sold:9000 points</p>
+      </div>
+
+      <div class="player-card" data-name="RAHI" data-batch="2019" data-position="MID">
+        <img src="images/121.jpg" alt="RAHI">
+        <h3>RAHI</h3>
+        <p><strong>Batch:</strong> 2019</p>
+        <p><strong>Position:</strong> MID</p>
+         <p><strong></strong>Alumni Stars </p>
+        <p><strong></strong> Sold:5000 points</p>
+
+      </div>
+
+      <div class="player-card" data-name="SAIFO" data-batch="2023" data-position="MID">
+        <img src="images/122.jpg" alt="SAIFO">
+        <h3>SAIFO</h3>
+        <p><strong>Batch:</strong> 2023</p>
+        <p><strong>Position:</strong> MID</p>
+         <p><strong></strong>3 Star Avengers </p>
+        <p><strong></strong> Sold:9000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MD SAIMON HASAN" data-batch="2023" data-position="MID">
+        <img src="images/124.jpg" alt="MD SAIMON HASAN">
+        <h3>MD SAIMON HASAN</h3>
+        <p><strong>Batch:</strong> 2023</p>
+        <p><strong>Position:</strong> MID</p>
+        <p><strong></strong>Golden Generation </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="JAMAL UDDIN" data-batch="2011" data-position="MID">
+        <img src="images/125.jpg" alt="JAMAL UDDIN">
+        <h3>JAMAL UDDIN</h3>
+        <p><strong>Batch:</strong> 2011</p>
+        <p><strong>Position:</strong> MID</p>
+        <p><strong></strong>Vintage Victors </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MD MUBARAK" data-batch="2021" data-position="MID">
+        <img src="images/126.jpg" alt="MD MUBARAK">
+        <h3>MD MUBARAK</h3>
+        <p><strong>Batch:</strong> 2021</p>
+        <p><strong>Position:</strong> MID</p>
+         <p><strong></strong>Supreme Titans  </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="SAIMON" data-batch="2024" data-position="MID">
+        <img src="images/127.jpg" alt="SAIMON">
+        <h3>SAIMON</h3>
+        <p><strong>Batch:</strong> 2024</p>
+        <p><strong>Position:</strong> MID</p>
+             <p><strong></strong>Retro Warriors </p>
+        <p><strong></strong> Sold:7000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MIZANUR RAHMAN" data-batch="2018" data-position="MID">
+        <img src="images/128.jpg" alt="MIZANUR RAHMAN">
+        <h3>MIZANUR RAHMAN</h3>
+        <p><strong>Batch:</strong> 2018</p>
+        <p><strong>Position:</strong> MID</p>
+             <p><strong></strong>Retro Warriors </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <!-- DF Players -->
+      <div class="player-card" data-name="MD MASUD" data-batch="2023" data-position="DF">
+        <img src="images/129.jpg" alt="MD MASUD">
+        <h3>MD MASUD</h3>
+        <p><strong>Batch:</strong> 2023</p>
+        <p><strong>Position:</strong> DF</p>
+                <p><strong></strong>Team Nostalgia </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+      <div class="player-card" data-name="ASRAF SABBIR " data-batch="2015" data-position="DF">
+        <img src="images/129.5.jpg" alt="MD MASUD">
+        <h3>MD MASUD</h3>
+        <p><strong>Batch:</strong> 2015</p>
+        <p><strong>Position:</strong> DF</p>
+                <p><strong></strong>3 Star Avengers </p>
+        <p><strong></strong> Sold:12000 points</p>
+      </div>
+
+
+      <div class="player-card" data-name="EMTEAZ HOSSAIN TOPU" data-batch="2021" data-position="DF">
+        <img src="images/130.jpg" alt="EMTEAZ HOSSAIN TOPU">
+        <h3>EMTEAZ HOSSAIN TOPU</h3>
+        <p><strong>Batch:</strong> 2021</p>
+        <p><strong>Position:</strong> DF</p>
+                <p><strong></strong>Team Nostalgia </p>
+        <p><strong></strong> Sold:8000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MD AUPO" data-batch="2025" data-position="DF">
+        <img src="images/131.jpg" alt="MD AUPO">
+        <h3>MD AUPO</h3>
+        <p><strong>Batch:</strong> 2025</p>
+        <p><strong>Position:</strong> DF</p>
+         <p><strong></strong>Team Legends  </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="JUBAIR TALUKDER" data-batch="2021" data-position="DF">
+        <img src="images/132.jpg" alt="JUBAIR TALUKDER">
+        <h3>JUBAIR TALUKDER</h3>
+        <p><strong>Batch:</strong> 2021</p>
+        <p><strong>Position:</strong> DF</p>
+           <p><strong></strong>Team Legacy  </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="SIFATUL HASAN" data-batch="2024" data-position="DF">
+        <img src="images/133.jpg" alt="SIFATUL HASAN">
+        <h3>SIFATUL HASAN</h3>
+        <p><strong>Batch:</strong> 2024</p>
+        <p><strong>Position:</strong> DF</p>
+        <p><strong></strong>Team Nostalgia</p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="SAYMON ALAMGIR" data-batch="2015" data-position="DF">
+        <img src="images/134.jpg" alt="SAYMON ALAMGIR">
+        <h3>SAYMON ALAMGIR</h3>
+        <p><strong>Batch:</strong> 2015</p>
+        <p><strong>Position:</strong> DF</p>
+        <p><strong></strong>Team Legends</p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MARUF" data-batch="2025" data-position="DF">
+        <img src="images/135.jpg" alt="MARUF">
+        <h3>MARUF</h3>
+        <p><strong>Batch:</strong> 2025</p>
+        <p><strong>Position:</strong> DF</p>
+         <p><strong></strong>Supreme Titans  </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="EMAM HOSEN TOPU" data-batch="2020" data-position="DF">
+        <img src="images/136.jpg" alt="EMAM HOSEN TOPU">
+        <h3>EMAM HOSEN TOPU</h3>
+        <p><strong>Batch:</strong> 2020</p>
+        <p><strong>Position:</strong> DF</p>
+          <p><strong></strong>Vintage Victors </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="ERSHAD RAJA" data-batch="2024" data-position="DF">
+        <img src="images/137.jpg" alt="ERSHAD RAJA">
+        <h3>ERSHAD RAJA</h3>
+        <p><strong>Batch:</strong> 2024</p>
+        <p><strong>Position:</strong> DF</p>
+         <p><strong></strong>Team Legends  </p>
+        <p><strong></strong> Sold:12000 points</p>
+      </div>
+
+      <div class="player-card" data-name="AMIN" data-batch="2020" data-position="DF">
+        <img src="images/138.jpg" alt="AMIN">
+        <h3>AMIN</h3>
+        <p><strong>Batch:</strong> 2020</p>
+        <p><strong>Position:</strong> DF</p>
+                <p><strong></strong>Team Nostalgia </p>
+        <p><strong></strong> Sold:5000 points</p>
+           
+      </div>
+
+      <div class="player-card" data-name="ARIF ISTIAK" data-batch="2014" data-position="DF">
+        <img src="images/139.jpg" alt="ARIF ISTIAK">
+        <h3>ARIF ISTIAK</h3>
+        <p><strong>Batch:</strong> 2014</p>
+        <p><strong>Position:</strong> DF</p>
+        <p><strong></strong>Team Legacy<p>
+        <p><strong></strong> Sold:7000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MD SABBIR" data-batch="2022" data-position="DF">
+        <img src="images/140.jpg" alt="MD SABBIR">
+        <h3>MD SABBIR</h3>
+        <p><strong>Batch:</strong> 2022</p>
+        <p><strong>Position:</strong> DF</p>
+                <p><strong></strong>Team Nostalgia </p>
+        <p><strong></strong> Sold:9000 points</p>
+      </div>
+
+
+
+      <!-- DF Players -->
+      <div class="player-card" data-name="MD RAKIB" data-batch="2022" data-position="DF">
+        <img src="images/141.jpg" alt="MD RAKIB">
+        <h3>MD RAKIB</h3>
+        <p><strong>Batch:</strong> 2022</p>
+        <p><strong>Position:</strong> DF</p>
+           <p><strong></strong>Team Legacy  </p>
+        <p><strong></strong> Sold:19000 points</p>
+      </div>
+
+      <div class="player-card" data-name="TIPU" data-batch="2019" data-position="DF">
+        <img src="images/142.jpg" alt="TIPU">
+        <h3>TIPU</h3>
+        <p><strong>Batch:</strong> 2019</p>
+        <p><strong>Position:</strong> DF</p>
+             <p><strong></strong>Retro Warriors </p>
+        <p><strong></strong> Sold:20000 points</p>
+      </div>
+
+      <div class="player-card" data-name="TANIM" data-batch="2020" data-position="DF">
+        <img src="images/143.jpg" alt="TANIM">
+        <h3>TANIM</h3>
+        <p><strong>Batch:</strong> 2020</p>
+        <p><strong>Position:</strong> DF</p>
+          <p><strong></strong>3 Star Avengers </p>
+        <p><strong></strong> Sold:7000 points</p>
+      </div>
+
+      <div class="player-card" data-name="AKASH DASH" data-batch="2018" data-position="DF">
+        <img src="images/144.jpg" alt="AKASH DASH">
+        <h3>AKASH DASH</h3>
+        <p><strong>Batch:</strong> 2018</p>
+        <p><strong>Position:</strong> DF</p>
+        <p><strong></strong>Golden Generation </p>
+        <p><strong></strong> Sold:20000 points</p>
+      </div>
+
+      <div class="player-card" data-name="JISHAD" data-batch="2023" data-position="DF">
+        <img src="images/145.jpg" alt="JISHAD">
+        <h3>JISHAD</h3>
+        <p><strong>Batch:</strong> 2023</p>
+        <p><strong>Position:</strong> DF</p>
+          <p><strong></strong>Vintage Victors </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="ARAFAT 2024" data-batch="" data-position="DF">
+        <img src="images/146.jpg" alt="ARAFAT 2024">
+        <h3>ARAFAT 2024</h3>
+        <p><strong>Batch:</strong> N/A</p>
+        <p><strong>Position:</strong> DF</p>
+         <p><strong></strong>Alumni Stars </p>
+        <p><strong></strong> Sold:15000 points</p>
+
+      </div>
+
+      <div class="player-card" data-name="MD MASUD" data-batch="2025" data-position="DF">
+        <img src="images/147.jpg" alt="MD MASUD">
+        <h3>MD MASUD</h3>
+        <p><strong>Batch:</strong> 2025</p>
+        <p><strong>Position:</strong> DF</p>
+         <p><strong></strong>Supreme Titans  </p>
+        <p><strong></strong> Sold:6000 points</p>
+      </div>
+
+      <div class="player-card" data-name="NOYON" data-batch="2021" data-position="DF">
+        <img src="images/148.jpg" alt="NOYON">
+        <h3>NOYON</h3>
+        <p><strong>Batch:</strong> 2021</p>
+        <p><strong>Position:</strong> DF</p>
+        <p><strong></strong>Golden Generation </p>
+        <p><strong></strong> Sold:16000 points</p>
+      </div>
+
+      <div class="player-card" data-name="RD RAKIB" data-batch="2023" data-position="DF">
+        <img src="images/149.jpg" alt="RD RAKIB">
+        <h3>RD RAKIB</h3>
+        <p><strong>Batch:</strong> 2023</p>
+        <p><strong>Position:</strong> DF</p>
+             <p><strong></strong>Retro Warriors </p>
+        <p><strong></strong> Sold:6000 points</p>
+      </div>
+
+      <div class="player-card" data-name="KAZI MIJAN" data-batch="2022" data-position="DF">
+        <img src="images/150.jpg" alt="KAZI MIJAN">
+        <h3>KAZI MIJAN</h3>
+        <p><strong>Batch:</strong> 2022</p>
+        <p><strong>Position:</strong> DF</p>
+          <p><strong></strong>3 Star Avengers </p>
+        <p><strong></strong> Sold:12000 points</p>
+      </div>
+
+      <div class="player-card" data-name="DELOWAR HOSSAIN" data-batch="2019" data-position="DF">
+        <img src="images/151.jpg" alt="DELOWAR HOSSAIN">
+        <h3>DELOWAR HOSSAIN</h3>
+        <p><strong>Batch:</strong> 2019</p>
+        <p><strong>Position:</strong> DF</p>
+           <p><strong></strong>Team Legacy  </p>
+        <p><strong></strong> Sold:17000 points</p>
+      </div>
+
+      <div class="player-card" data-name="A H ARIF" data-batch="2023" data-position="DF">
+        <img src="images/152.jpg" alt="A H ARIF">
+        <h3>A H ARIF</h3>
+        <p><strong>Batch:</strong> 2023</p>
+        <p><strong>Position:</strong> DF</p>
+         <p><strong></strong>Alumni Stars </p>
+        <p><strong></strong> Sold:18000 points</p>
+
+      </div>
+
+      <div class="player-card" data-name="MD TAMIM" data-batch="2023" data-position="DF">
+        <img src="images/153.jpg" alt="MD TAMIM">
+        <h3>MD TAMIM</h3>
+        <p><strong>Batch:</strong> 2023</p>
+        <p><strong>Position:</strong> DF</p>
+          <p><strong></strong>Vintage Victors </p>
+        <p><strong></strong> Sold:16000 points</p>
+      </div>
+
+      <div class="player-card" data-name="SOHEL" data-batch="2020" data-position="DF">
+        <img src="images/154.jpg" alt="SOHEL">
+        <h3>SOHEL</h3>
+        <p><strong>Batch:</strong> 2020</p>
+        <p><strong>Position:</strong> DF</p>
+         <p><strong></strong>Team Legends  </p>
+        <p><strong></strong> Sold:8000 points</p>
+      </div>
+
+      <div class="player-card" data-name="JOBAYER TANVIR" data-batch="2012" data-position="DF">
+        <img src="images/155.jpg" alt="JOBAYER TANVIR">
+        <h3>JOBAYER TANVIR</h3>
+        <p><strong>Batch:</strong> 2012</p>
+        <p><strong>Position:</strong> DF</p>
+                <p><strong></strong>Team Nostalgia </p>
+        <p><strong></strong> Sold:9000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MD BELAL" data-batch="2021" data-position="DF">
+        <img src="images/156.jpg" alt="MD BELAL">
+        <h3>MD BELAL</h3>
+        <p><strong>Batch:</strong> 2021</p>
+        <p><strong>Position:</strong> DF</p>
+           <p><strong></strong>Team Legacy  </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MASUD AHMED" data-batch="2025" data-position="DF">
+        <img src="images/157.jpg" alt="MASUD AHMED">
+        <h3>MASUD AHMED</h3>
+        <p><strong>Batch:</strong> 2025</p>
+        <p><strong>Position:</strong> DF</p>
+          <p><strong></strong>3 Star Avengers </p>
+        <p><strong></strong> Sold:7000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MD YASIN" data-batch="2019" data-position="DF">
+        <img src="images/158.jpg" alt="MD YASIN">
+        <h3>MD YASIN</h3>
+        <p><strong>Batch:</strong> 2019</p>
+        <p><strong>Position:</strong> DF</p>
+         <p><strong></strong>Reunion Rovers </p>
+        <p><strong></strong> Sold:13000 points</p>
+      </div>
+
+      <div class="player-card" data-name="RAJMUL ALAM" data-batch="2022" data-position="DF">
+        <img src="images/159.jpg" alt="RAJMUL ALAM">
+        <h3>RAJMUL ALAM</h3>
+        <p><strong>Batch:</strong> 2022</p>
+        <p><strong>Position:</strong> DF</p>
+         <p><strong></strong>Team Legends  </p>
+        <p><strong></strong> Sold:7000 points</p>
+      </div>
+
+      <div class="player-card" data-name="SABBIR" data-batch="2023" data-position="DF">
+        <img src="images/160.jpg" alt="SABBIR">
+        <h3>SABBIR</h3>
+        <p><strong>Batch:</strong> 2023</p>
+        <p><strong>Position:</strong> DF</p>
+         <p><strong></strong>Alumni Stars </p>
+        <p><strong></strong> Sold:7000 points</p>
+
+      </div>
+
+      <div class="player-card" data-name="MD ARAFAT" data-batch="2022" data-position="DF">
+        <img src="images/161.jpg" alt="MD ARAFAT">
+        <h3>MD ARAFAT</h3>
+        <p><strong>Batch:</strong> 2022</p>
+        <p><strong>Position:</strong> DF</p>
+         <p><strong></strong>Reunion Rovers </p>
+        <p><strong></strong> Sold:6000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MD AZIZ" data-batch="2021" data-position="DF">
+        <img src="images/162.jpg" alt="MD AZIZ">
+        <h3>MD AZIZ</h3>
+        <p><strong>Batch:</strong> 2021</p>
+        <p><strong>Position:</strong> DF</p>
+             <p><strong></strong>Retro Warriors </p>
+        <p><strong></strong> Sold:6000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MD HANNAN" data-batch="2025" data-position="DF">
+        <img src="images/163.jpg" alt="MD HANNAN">
+        <h3>MD HANNAN</h3>
+        <p><strong>Batch:</strong> 2025</p>
+        <p><strong>Position:</strong> DF</p>
+          <p><strong></strong>3 Star Avengers </p>
+        <p><strong></strong> Sold:6000 points</p>
+      </div>
+
+      <div class="player-card" data-name="RUMAN UDDIN" data-batch="2012" data-position="DF">
+        <img src="images/164.jpg" alt="RUMAN UDDIN">
+        <h3>RUMAN UDDIN</h3>
+        <p><strong>Batch:</strong> 2012</p>
+        <p><strong>Position:</strong> DF</p>
+           <p><strong></strong>Team Legacy  </p>
+        <p><strong></strong> Sold:6000 points</p>
+      </div>
+
+      <div class="player-card" data-name="TASIF AHMED" data-batch="2024" data-position="DF">
+        <img src="images/165.jpg" alt="TASIF AHMED">
+        <h3>TASIF AHMED</h3>
+        <p><strong>Batch:</strong> 2024</p>
+        <p><strong>Position:</strong> DF</p>
+                <p><strong></strong>Team Nostalgia </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MD RAMJAN" data-batch="2025" data-position="DF">
+        <img src="images/166.jpg" alt="MD RAMJAN">
+        <h3>MD RAMJAN</h3>
+        <p><strong>Batch:</strong> 2025</p>
+        <p><strong>Position:</strong> DF</p>
+          <p><strong></strong>Vintage Victors </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MD MOHIN UDDIN" data-batch="2025" data-position="DF">
+        <img src="images/168.jpg" alt="MD MOHIN UDDIN">
+        <h3>MD MOHIN UDDIN</h3>
+        <p><strong>Batch:</strong> 2025</p>
+        <p><strong>Position:</strong> DF</p>
+         <p><strong></strong>Supreme Titans  </p>
+        <p><strong></strong> Sold:14000 points</p>
+      </div>
+
+      <div class="player-card" data-name="AH RUBEL" data-batch="2022" data-position="DF">
+        <img src="images/169.jpg" alt="AH RUBEL">
+        <h3>AH RUBEL</h3>
+        <p><strong>Batch:</strong> 2022</p>
+        <p><strong>Position:</strong> DF</p>
+        <p><strong></strong>Golden Generation </p>
+        <p><strong></strong> Sold:8000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MUSHFIQUL ALAM" data-batch="2024" data-position="DF">
+        <img src="images/170.jpg" alt="MUSHFIQUL ALAM">
+        <h3>MUSHFIQUL ALAM</h3>
+        <p><strong>Batch:</strong> 2024</p>
+        <p><strong>Position:</strong> DF</p>
+         <p><strong></strong>Alumni Stars </p>
+        <p><strong></strong> Sold:6000 points</p>
+
+      </div>
+
+
+
+
+      <!-- DF Players 171-188 -->
+      <div class="player-card" data-name="RAKIB" data-batch="2025" data-position="DF">
+        <img src="images/171.jpg" alt="RAKIB">
+        <h3>RAKIB</h3>
+        <p><strong>Batch:</strong> 2025</p>
+        <p><strong>Position:</strong> DF</p>
+        <p><strong></strong>Team Legacy  </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="KAWSER" data-batch="2022" data-position="DF">
+        <img src="images/172.jpg" alt="KAWSER">
+        <h3>KAWSER</h3>
+        <p><strong>Batch:</strong> 2022</p>
+        <p><strong>Position:</strong> DF</p>
+         <p><strong></strong>Reunion Rovers </p>
+        <p><strong></strong> Sold:12000 points</p>
+      </div>
+
+      <div class="player-card" data-name="RABIUL HOSSAIN" data-batch="2019" data-position="DF">
+        <img src="images/173.jpg" alt="RABIUL HOSSAIN">
+        <h3>RABIUL HOSSAIN</h3>
+        <p><strong>Batch:</strong> 2019</p>
+        <p><strong>Position:</strong> DF</p>
+         <p><strong></strong>Team Legends  </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="IFTEKAR" data-batch="2020" data-position="DF">
+        <img src="images/174.jpg" alt="IFTEKAR">
+        <h3>IFTEKAR</h3>
+        <p><strong>Batch:</strong> 2020</p>
+        <p><strong>Position:</strong> DF</p>
+         <p><strong></strong > 3 Star Avengers  </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="TOWHIDUL ALAM" data-batch="2021" data-position="DF">
+        <img src="images/175.jpg" alt="TOWHIDUL ALAM">
+        <h3>TOWHIDUL ALAM</h3>
+        <p><strong>Batch:</strong> 2021</p>
+        <p><strong>Position:</strong> DF</p>
+        <p><strong></strong>Vintage Victors </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="YEASIN" data-batch="2024" data-position="DF">
+        <img src="images/176.jpg" alt="YEASIN">
+        <h3>YEASIN</h3>
+        <p><strong>Batch:</strong> 2024</p>
+        <p><strong>Position:</strong> DF</p>
+         <p><strong></strong>Team Legends  </p>
+        <p><strong></strong> Sold:6000 points</p>
+      </div>
+
+      <div class="player-card" data-name="DAUD ISLAM RIYAD" data-batch="2022" data-position="DF">
+        <img src="images/177.jpg" alt="DAUD ISLAM RIYAD">
+        <h3>DAUD ISLAM RIYAD</h3>
+        <p><strong>Batch:</strong> 2022</p>
+        <p><strong>Position:</strong> DF</p>
+        <p><strong></strong>Golden Generation </p>
+        <p><strong></strong> Sold:10000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MD SAKIB" data-batch="2023" data-position="DF">
+        <img src="images/178.jpg" alt="MD SAKIB">
+        <h3>MD SAKIB</h3>
+        <p><strong>Batch:</strong> 2023</p>
+        <p><strong>Position:</strong> DF</p>
+           <p><strong></strong>Team Legacy  </p>
+        <p><strong></strong> Sold:8000 points</p>
+      </div>
+
+      <div class="player-card" data-name="TAREK HOSSAIN" data-batch="2022" data-position="DF">
+        <img src="images/179.jpg" alt="TAREK HOSSAIN">
+        <h3>TAREK HOSSAIN</h3>
+        <p><strong>Batch:</strong> 2022</p>
+        <p><strong>Position:</strong> DF</p>
+         <p><strong></strong>Supreme Titans  </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="AKIB HOSSEN" data-batch="2025" data-position="DF">
+        <img src="images/180.jpg" alt="AKIB HOSSEN">
+        <h3>AKIB HOSSEN</h3>
+        <p><strong>Batch:</strong> 2025</p>
+        <p><strong>Position:</strong> DF</p>
+          <p><strong></strong>Vintage Victors </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="RIYAD AHMED" data-batch="2023" data-position="DF">
+        <img src="images/181.jpg" alt="RIYAD AHMED">
+        <h3>RIYAD AHMED</h3>
+        <p><strong>Batch:</strong> 2023</p>
+        <p><strong>Position:</strong> DF</p>
+             <p><strong></strong>Retro Warriors </p>
+        <p><strong></strong> Sold:8000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MUBARAK HOSSEN" data-batch="2023" data-position="DF">
+        <img src="images/182.jpg" alt="MUBARAK HOSSEN">
+        <h3>MUBARAK HOSSEN</h3>
+        <p><strong>Batch:</strong> 2023</p>
+        <p><strong>Position:</strong> DF</p>
+                <p><strong></strong>Team Nostalgia </p>
+        <p><strong></strong> Sold:6000 points</p>
+      </div>
+
+      <div class="player-card" data-name="AMIN" data-batch="2024" data-position="DF">
+        <img src="images/183.jpg" alt="AMIN">
+        <h3>AMIN</h3>
+        <p><strong>Batch:</strong> 2024</p>
+        <p><strong>Position:</strong> DF</p>
+        <p><strong></strong>Team Legacy  </p>
+        <p><strong></strong> Sold:7000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MD RIFAT" data-batch="2023" data-position="DF">
+        <img src="images/184.jpg" alt="MD RIFAT">
+        <h3>MD RIFAT</h3>
+        <p><strong>Batch:</strong> 2023</p>
+        <p><strong>Position:</strong> DF</p>
+         <p><strong></strong>Reunion Rovers </p>
+        <p><strong></strong> Sold:6000 points</p>
+      </div>
+
+      <div class="player-card" data-name="SHAKIB" data-batch="2022" data-position="DF">
+        <img src="images/185.jpg" alt="SHAKIB">
+        <h3>SHAKIB</h3>
+        <p><strong>Batch:</strong> 2022</p>
+        <p><strong>Position:</strong> DF</p>
+         <p><strong></strong>Alumni Stars </p>
+        <p><strong></strong> Sold:6000 points</p>
+
+      </div>
+
+      <div class="player-card" data-name="ARAFADUL ISLAM RAFI" data-batch="2022" data-position="DF">
+        <img src="images/186.jpg" alt="ARAFADUL ISLAM RAFI">
+        <h3>ARAFADUL ISLAM RAFI</h3>
+        <p><strong>Batch:</strong> 2022</p>
+        <p><strong>Position:</strong> DF</p>
+             <p><strong></strong>Retro Warriors </p>
+        <p><strong></strong> Sold:5000 points</p>
+      </div>
+
+      <div class="player-card" data-name="ALI AKBUR" data-batch="2025" data-position="DF">
+        <img src="images/187.jpg" alt="ALI AKBUR">
+        <h3>ALI AKBUR</h3>
+        <p><strong>Batch:</strong> 2025</p>
+        <p><strong>Position:</strong> DF</p>
+         <p><strong></strong>Reunion Rovers </p>
+        <p><strong></strong> Sold:6000 points</p>
+      </div>
+
+      <div class="player-card" data-name="RABIUL ISLAM RIYAD" data-batch="2023" data-position="DF">
+        <img src="images/188.jpg" alt="RABIUL ISLAM RIYAD">
+        <h3>RABIUL ISLAM RIYAD</h3>
+        <p><strong>Batch:</strong> 2023</p>
+        <p><strong>Position:</strong> DF</p>
+         <p><strong></strong>Team Legends  </p>
+        <p><strong></strong> Sold:6000 points</p>
+      </div>
+
+      <div class="player-card" data-name="MOHARRAM ALI" data-batch="2022" data-position="MID">
+        <img src="images/189.jpg" alt="RABIUL ISLAM RIYAD">
+        <h3>MOHARRAM ALI</h3>
+        <p><strong>Batch:</strong> 2022</p>
+        <p><strong>Position:</strong>MID</p>
+          <p><strong></strong>3 Star Avengers </p>
+        <p><strong></strong> Sold:7000 points</p>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div id="noResults" class="no-results" style="display:none;">
+        No players match your search or filter.
+      </div>
+  </section>
+
+  <!-- Footer -->
+  <section class="footer">
+    <h4>About Tournament</h4>
+    <p>The KNBHS Alumni Football Tournament brings former students together through teamwork, passion, and
+      sportsmanship.</p>
+
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-youtube"></i>
+    </div>
+
+    <p>Designed With ❤️ for KNBHS Alumni</p>
+  </section>
+
+  <!-- JavaScript -->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() { navLinks.style.right = "0"; }
+    function hideMenu() { navLinks.style.right = "-230px"; }
+
+    (function () {
+      const grid = document.getElementById('playersGrid');
+      const cards = Array.from(grid.querySelectorAll('.player-card'));
+      const searchInput = document.getElementById('searchInput');
+      const batchFilter = document.getElementById('batchFilter');
+      const positionFilter = document.getElementById('positionFilter');
+      const resetBtn = document.getElementById('resetBtn');
+      const noResults = document.getElementById('noResults');
+      const countNumber = document.getElementById('countNumber');
+
+      const norm = s => (s || '').toLowerCase().trim();
+
+      const batches = new Set();
+      const positions = new Set();
+
+      cards.forEach(c => {
+        batches.add(c.dataset.batch);
+        positions.add(c.dataset.position);
+      });
+
+      [...batches].sort().forEach(b => {
+        const opt = document.createElement('option');
+        opt.value = b;
+        opt.textContent = b;
+        batchFilter.appendChild(opt);
+      });
+
+      [...positions].sort().forEach(p => {
+        const opt = document.createElement('option');
+        opt.value = p;
+        opt.textContent = p;
+        positionFilter.appendChild(opt);
+      });
+
+      function applyFilter() {
+        const q = norm(searchInput.value);
+        const b = batchFilter.value;
+        const p = positionFilter.value;
+
+        let visibleCount = 0;
+
+        cards.forEach(card => {
+          const matchName = norm(card.dataset.name).includes(q);
+          const matchBatch = (b === "all") || (card.dataset.batch === b);
+          const matchPos = (p === "all") || (card.dataset.position === p);
+
+          const show = matchName && matchBatch && matchPos;
+
+          card.style.display = show ? "" : "none";
+          if (show) visibleCount++;
+        });
+
+        noResults.style.display = visibleCount === 0 ? "" : "none";
+        countNumber.textContent = visibleCount;
+      }
+
+      searchInput.addEventListener('input', applyFilter);
+      batchFilter.addEventListener('change', applyFilter);
+      positionFilter.addEventListener('change', applyFilter);
+      resetBtn.addEventListener('click', () => {
+        searchInput.value = "";
+        batchFilter.value = "all";
+        positionFilter.value = "all";
+        applyFilter();
+      });
+
+      applyFilter();
+    })();
+
+    const user = JSON.parse(localStorage.getItem('loggedInUser'));
+    if (user) {
+      const nav = document.querySelector("nav");
+      const span = document.createElement("span");
+      span.textContent = `Welcome, ${user.fullname}`;
+      span.style.color = "white";
+      span.style.marginLeft = "20px";
+      nav.appendChild(span);
+    }
+
+    document.getElementById("logoutBtn").addEventListener("click", function (e) {
+      e.preventDefault();
+      localStorage.removeItem("loggedInUser");
+      window.location.href = "login.html";
+    });
+  </script>
+
+</body>
+
+</html>

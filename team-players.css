@@ -1,0 +1,127 @@
+body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: #0c0c0c url('picture/llllll.jpg') no-repeat center/cover;
+      color: white;
+    }
+
+.team-header {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.team-header .team-logo {
+    width: 120px;        /* adjust size */
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;  /* circle logo */
+    border: 3px solid #ffcc00;  
+    margin-bottom: 15px;
+}
+
+.team-header h1 {
+    font-size: 40px;
+    color: #ffcc00;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+    .team-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 40px;
+    }
+
+    /* ========== PLAYER CARD ========== */
+    .player-card {
+      width: 280px;
+      background: linear-gradient(135deg, #161616, #1f1f1f);
+      border-radius: 22px;
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      border: 2px solid rgba(255,255,255,0.15);
+      position: relative;
+      overflow: hidden;
+      transition: 0.3s;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 0 25px rgba(0,0,0,0.6);
+    }
+
+    .player-card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: 22px;
+      padding: 2px;
+      background: linear-gradient(45deg, #00eaff, #0075ff, #00ff95, #00eaff);
+      -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+              mask-composite: exclude;
+      opacity: 0.4;
+      animation: glow 4s linear infinite;
+    }
+
+    @keyframes glow {
+      0% { filter: hue-rotate(0deg); }
+      100% { filter: hue-rotate(360deg); }
+    }
+
+    .player-card:hover {
+      transform: scale(1.06);
+      box-shadow: 0 0 40px rgba(0,255,255,0.4);
+    }
+
+    .card-top {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .card-top img {
+      width: 80px;
+      height: 80px;
+      border-radius: 14px;
+      object-fit: cover;
+      border: 2px solid rgba(255,255,255,0.3);
+      box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    }
+
+    .player-name {
+      font-size: 20px;
+      font-weight: 700;
+      margin: 0;
+      text-shadow: 0 0 10px rgba(0,255,255,0.6);
+    }
+
+    .player-position {
+      font-size: 16px;
+      color: #00eaff;
+      margin: 0;
+    }
+
+    .card-info {
+      background: rgba(255,255,255,0.07);
+      padding: 12px;
+      border-radius: 16px;
+      border: 1px solid rgba(255,255,255,0.15);
+    }
+
+    .team-name {
+      color: #ffc857;
+      font-size: 16px;
+      margin: 6px 0;
+      font-weight: 600;
+    }
+
+    .sold-price {
+      color: #00ff95;
+      font-size: 18px;
+      font-weight: 700;
+      margin: 6px 0;
+      text-shadow: 0 0 8px rgba(0,255,150,0.6);
+    }
